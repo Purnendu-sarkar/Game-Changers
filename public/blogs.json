@@ -1,0 +1,152 @@
+[
+    {
+        "playerId": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/bRydt08/virat.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 200000
+    },
+    {
+        "playerId": 2,
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/ykTJcyf/Babar-Azam.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 180000
+    },
+    {
+        "playerId": 3,
+        "name": "Jos Buttler",
+        "country": "England",
+        "image": "https://i.ibb.co.com/qyH9bYY/Jos-Buttler.jpg",
+        "role": "Wicketkeeper",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 170000
+    },
+    {
+"playerId": 4,
+    "name": "AB de Villiers",
+    "country": "South Africa",
+    "image": "https://i.ibb.co.com/kXSmWRv/AB-de-Villiers.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": 180000
+},
+    {
+        "playerId": 5,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/zZYQKp9/Steve-Smith.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 150000
+    },
+    {
+        "playerId": 6,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "image": "https://i.ibb.co.com/sbVPPfs/Rashid-Khan.webp",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Leg-spin",
+        "biddingPrice": 140000
+    },
+    {
+        "playerId": 7,
+        "name": "KL Rahul",
+        "country": "India",
+        "image": "https://i.ibb.co.com/1TW3VFN/KL-Rahul.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 130000
+    },
+    {
+        "playerId": 8,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/2cxrYWW/Trent-Boult.webp",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Left-arm fast",
+        "biddingPrice": 120000
+    },
+    {
+        "playerId": 9,
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "https://i.ibb.co.com/tqK5xq1/Ben-Stokes.jpg",
+        "role": "All-rounder",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Right-arm fast-medium",
+        "biddingPrice": 110000
+    },
+    {
+        "playerId": 10,
+        "name": "Shreyas Iyer",
+        "country": "India",
+        "image": "https://i.ibb.co.com/vBGj7Mt/Shreyas-Iyer.webp",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 100000
+    },
+    {
+        "playerId": 11,
+        "name": "David Warner",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/d06q95N/David-Warner.jpg",
+        "role": "Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 95000
+    },
+    {
+        "playerId": 12,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "image": "https://i.ibb.co.com/s5Z3wNL/Jasprit-Bumrah.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": 145000
+    },
+    {
+        "playerId": 13,
+        "name": "Rohit Sharma",
+        "country": "India",
+        "image": "https://i.ibb.co.com/nkJZtMN/Rohit-Sharma.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 160000
+    },
+    {
+        "playerId": 14,
+        "name": "Chris Gayle",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/L0qh3sZ/Chris-Gayle.webp",
+        "role": "Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Right-arm off-break",
+        "biddingPrice": 95000
+    },
+    {
+        "playerId": 15,
+        "name": "Suryakumar Yadav",
+        "country": "India",
+        "image": "https://i.ibb.co.com/V3nZCDV/Suryakumar-Yadav.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "N/A",
+        "biddingPrice": 110000
+    }
+]
