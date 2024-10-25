@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
 
-const Players = () => {
+const Players = ({ addPlayer }) => {
     const [players, setPlayers] = useState([]);
 
     useEffect(() => {
@@ -18,11 +18,11 @@ const Players = () => {
                 <h3 className="font-bold text-xl text-dark-02">Available Players</h3>
                 <div className="flex border rounded-lg">
                     <button className="px-7 py-3">Available</button>
-                    <button className="px-7 py-3">Selected (0)</button>
+                    <button className="px-7 py-3">Selected ({})</button>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto gap-5 mt-9">
-                {players.map(player => (<Player key={player.playerId} player={player}></Player>
+                {players.map(player => (<Player key={player.playerId} player={player} addPlayer={addPlayer}></Player>
                 ))}
             </div>
         </div>

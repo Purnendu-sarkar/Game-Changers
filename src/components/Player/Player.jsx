@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { FaUser, FaFlag } from 'react-icons/fa';
 
-const Player = ({ player }) => {
+const Player = ({ player, addPlayer }) => {
     return (
         <div className="player-card border p-4 rounded-lg">
             <img className="w-full h-96 object-cover rounded-md" src={player.image} alt={player.name} />
@@ -27,7 +27,7 @@ const Player = ({ player }) => {
             </div>
             <div className="flex items-center justify-between">
                 <p className="font-semibold text-dark-02">Price: {player.biddingPrice}</p>
-                <button className='btn font-normal text-sm text-dark-01'>Choose Player</button>
+                <button className='btn font-normal text-sm text-dark-01'  onClick={() => addPlayer(player)}>Choose Player</button>
             </div>
         </div>
     );
