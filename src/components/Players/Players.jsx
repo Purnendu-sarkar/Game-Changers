@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
 
-const Players = ({ addPlayer }) => {
+const Players = ({ addPlayer, toggleSelected, selectedPlayers }) => {
     const [players, setPlayers] = useState([]);
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const Players = ({ addPlayer }) => {
                 <h3 className="font-bold text-xl text-dark-02">Available Players</h3>
                 <div className="flex border rounded-lg">
                     <button className="px-7 py-3">Available</button>
-                    <button className="px-7 py-3">Selected ({})</button>
+                    <button className="px-7 py-3" onClick={toggleSelected}>Selected ({selectedPlayers.length})</button>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto gap-5 mt-9">
