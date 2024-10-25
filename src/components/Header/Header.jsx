@@ -1,7 +1,7 @@
 import logo from '../../assets/logo.png'
-import coin from '../../assets/coin.png'
+import coin1 from '../../assets/coin.png'
 // import { FaBeer } from 'react-icons/fa';
-const Header = () => {
+const Header = ({ coin }) => {
     return (
         <div className="flex justify-between items-center w-11/12 mx-auto md:mt-12">
             <img src={logo} alt="" />
@@ -12,7 +12,7 @@ const Header = () => {
                     <li>Teams</li>
                     <li>Schedules</li>
                 </ul>
-                <button className='btn font-semibold text-dark-02'>0 coin <img src={coin} alt="" /></button>
+                <button className='btn font-semibold text-dark-02'>{coin} coin <img src={coin1} alt="" /></button>
             </div>
         </div>
     );
