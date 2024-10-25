@@ -10,7 +10,8 @@ import Selected from './components/Selected/Selected';
 function App() {
   const [coin, setCoin] = useState(0);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
-  const [showSelected, setShowSelected] = useState(false);
+  // const [showSelected, setShowSelected] = useState(false);
+  const [activeTab, setActiveTab] = useState('available');
 
 
 
@@ -34,17 +35,25 @@ function App() {
 };
 
 
-const toggleSelected = () => {
-  setShowSelected(!showSelected);
+const removePlayer = (playerId) => {
+  const playerToRemove = selectedPlayers.find(player => player.playerId === playerId);
+  if (playerToRemove) {
+    setSelectedPlayers(selectedPlayers.filter(player => player.playerId !== playerId));
+    alert(`${playerToRemove.name} removed from selection.`);
+  }
 };
+
+// const toggleSelected = () => {
+//   setShowSelected(!showSelected);
+//   setActiveTab(activeTab === 'available' ? 'selected' : 'available');
+// };
 
   return (
     <>
     <Header coin={coin}></Header>
     <Banner addCoin={addCoin}></Banner>
-    {showSelected && <Selected selectedPlayers={selectedPlayers}></Selected>}
-    <Players addPlayer={addPlayer} toggleSelected={toggleSelected} selectedPlayers={selectedPlayers}></Players>
-    
+    <Players addPlayer={addPlayer} activeTab={activeTab} setActiveTab={setActiveTab} selectedPlayers={selectedPlayers}></Players>
+    {activeTab === 'selected' && <Selected selectedPlayers={selectedPlayers} removePlayer={removePlayer}></Selected>}
     </>
   )
 }

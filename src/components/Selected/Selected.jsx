@@ -1,6 +1,6 @@
 import { RiDeleteBin5Line } from "react-icons/ri";
 
-const Selected = ({ selectedPlayers }) => {
+const Selected = ({ selectedPlayers, removePlayer }) => {
     return (
         <div className="w-11/12 mx-auto flex flex-col gap-5">
             <h3 className="font-bold text-xl">Selected Players ({selectedPlayers.length}/6)</h3>
@@ -14,7 +14,7 @@ const Selected = ({ selectedPlayers }) => {
                             <p className="">{player.role}</p>
                             </div>
                             </div>
-                            <button><RiDeleteBin5Line />
+                            <button onClick={() => removePlayer(player.playerId)}><RiDeleteBin5Line />
                             </button>
                         </div>
                     ))}
