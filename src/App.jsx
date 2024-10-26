@@ -14,14 +14,13 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [coin, setCoin] = useState(0);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
-  // const [showSelected, setShowSelected] = useState(false);
   const [activeTab, setActiveTab] = useState('available');
 
 
 
   const addCoin = () => {
-    setCoin(coin + 10000000);
-    toast.success(`Congrats! 10000000 Credit have been added to your account`, {
+    setCoin(coin + 700000);
+    toast.success(`Congrats! 700000 Credit have been added to your account`, {
       style: { backgroundColor: 'blue', color: 'white' }, 
     });
   };

@@ -45,6 +45,7 @@ Player.propTypes = {
         bowlingType: PropTypes.string.isRequired,
         biddingPrice: PropTypes.number.isRequired,
     }).isRequired,
+    addPlayer: PropTypes.func.isRequired,
 };
 
 export default Player;

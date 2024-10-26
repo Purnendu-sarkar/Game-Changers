@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import logo from '../../assets/logo.png'
 import coin1 from '../../assets/coin.png'
 // import { FaBeer } from 'react-icons/fa';
@@ -18,6 +19,10 @@ const Header = ({ coin }) => {
         </div>
         </div>
     );
+};
+
+Header.propTypes = {
+    coin: PropTypes.number.isRequired,
 };
 
 export default Header;

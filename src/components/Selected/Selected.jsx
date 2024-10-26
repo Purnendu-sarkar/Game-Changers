@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { RiDeleteBin5Line } from "react-icons/ri";
 
 const Selected = ({ selectedPlayers, removePlayer, setActiveTab }) => {
@@ -24,6 +25,20 @@ const Selected = ({ selectedPlayers, removePlayer, setActiveTab }) => {
             <button></button>        
         </div>
     );
+};
+
+Selected.propTypes = {
+    selectedPlayers: PropTypes.arrayOf(
+        PropTypes.shape({
+            playerId: PropTypes.number.isRequired,
+            name: PropTypes.string.isRequired,
+            role: PropTypes.string.isRequired,
+            image: PropTypes.string.isRequired,
+            biddingPrice: PropTypes.number.isRequired,
+        })
+    ).isRequired,
+    removePlayer: PropTypes.func.isRequired,
+    setActiveTab: PropTypes.func.isRequired,
 };
 
 export default Selected;

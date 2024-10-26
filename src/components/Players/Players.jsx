@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
@@ -40,6 +41,14 @@ const Players = ({ addPlayer, activeTab, setActiveTab, selectedPlayers }) => {
       )}
     </div>
   );
+};
+
+Players.propTypes = {
+  addPlayer: PropTypes.func.isRequired,
+  activeTab: PropTypes.string.isRequired,
+  setActiveTab: PropTypes.func.isRequired,
+  
+  selectedPlayers: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Players;

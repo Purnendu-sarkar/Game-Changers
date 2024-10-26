@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import banner from '../../assets/banner-main.png'
 import backgroundShadow from '../../assets/bg-shadow.png'
 const Banner = ({ addCoin }) => {
@@ -13,6 +14,10 @@ const Banner = ({ addCoin }) => {
             </div>
         </div>
     );
+};
+
+Banner.propTypes = {
+    addCoin: PropTypes.func.isRequired,
 };
 
 export default Banner;
