@@ -14,7 +14,7 @@ const Players = ({ addPlayer, activeTab, setActiveTab, selectedPlayers }) => {
   return (
     <div>
       <div className="w-11/12 mx-auto flex items-center justify-between mb-10">
-        <h3 className="font-bold text-xl text-dark-02">Available Players</h3>
+        <h3 className="font-bold text-xl text-dark-02">{activeTab === 'available' ? 'Available Players' : `Selected Players (${selectedPlayers.length}/6)`}</h3>
         <div className="flex border rounded-lg">
           <button 
             className={`px-7 py-3 ${activeTab === 'available' ? 'bg-yellow-500 rounded-lg' : ''}`} 

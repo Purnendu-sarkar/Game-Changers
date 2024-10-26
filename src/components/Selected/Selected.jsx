@@ -3,7 +3,6 @@ import { RiDeleteBin5Line } from "react-icons/ri";
 const Selected = ({ selectedPlayers, removePlayer, setActiveTab }) => {
     return (
         <div className="w-11/12 mx-auto flex flex-col gap-5 mb-52">
-            <h3 className="font-bold text-xl">Selected Players ({selectedPlayers.length}/6)</h3>
             {selectedPlayers.map(player => (
                 
                         <div className="flex items-center justify-between p-6 rounded-2xl border" key={player.playerId}>

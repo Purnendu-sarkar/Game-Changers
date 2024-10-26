@@ -69,8 +69,13 @@ const removePlayer = (playerId) => {
     <Banner addCoin={addCoin}></Banner>
     <Players addPlayer={addPlayer} activeTab={activeTab} setActiveTab={setActiveTab} selectedPlayers={selectedPlayers}></Players>
     {activeTab === 'selected' && <Selected selectedPlayers={selectedPlayers} removePlayer={removePlayer} setActiveTab={setActiveTab}></Selected>}
-    <Newsletter></Newsletter>
-    <Footer></Footer>
+    {activeTab === 'available' && (
+      <>
+        <Newsletter></Newsletter>
+        <Footer></Footer>
+      </>
+    )}
+    
     </>
   )
 }
