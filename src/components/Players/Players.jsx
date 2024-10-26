@@ -32,7 +32,7 @@ const Players = ({ addPlayer, activeTab, setActiveTab, selectedPlayers }) => {
       </div>
 
       {activeTab === 'available' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto gap-5 mt-9">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto gap-5 mt-9 mb-56">
           {players.map(player => (
             <Player key={player.playerId} player={player} addPlayer={addPlayer} />
           ))}

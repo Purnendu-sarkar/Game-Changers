@@ -2,8 +2,8 @@
 
 function Newsletter() {
   return (
-    <div className="w-11/12 mx-auto ">
-        <div className="px-4 py-24 rounded-3xl text-center bg-gradient-to-r from-blue-200 via-white to-yellow-100">
+    <div className="w-11/12 mx-auto absolute bottom-[800px] md:bottom-[520px] left-5 md:left-20">
+        <div className="px-4 py-24 rounded-3xl text-center bg-gradient-to-r from-blue-200 via-white to-yellow-100 ring-4 ring-offset-4 ring-gray-200">
             <h3 className="font-bold text-3xl text-dark-02 mb-4">Subscribe to our Newsletter</h3>
             <p className="font-medium text-xl text-dark-01 mb-6">Get the latest updates and news right in your inbox!</p>
             <div className="flex items-center space-x-2 md:w-1/3 mx-auto">

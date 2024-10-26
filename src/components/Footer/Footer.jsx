@@ -3,7 +3,7 @@ import foote from '../../assets/logo-footer.png'
 function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
-      <div className="w-11/12 mx-auto">
+      <div className="w-11/12 mx-auto mt-48">
         
         <div className="flex flex-col items-center mb-5">
           <img src={foote} alt="Cricket Logo" className="h-16 mb-4" />
