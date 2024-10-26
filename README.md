@@ -15,3 +15,7 @@ Game Changers is a user-friendly web application that allows users to assemble t
 3. **Player Selection and Removal**: Select up to 6 players for your squad and remove them as needed.
 4. **Dynamic Notifications**: All alerts and notifications are managed through React-Toastify for a seamless user experience.
 5. **Responsive Design**: The application is designed to work smoothly on both desktop and mobile devices.
+
+
+##[Live link](https://purnendu-game-changers.netlify.app)
+
