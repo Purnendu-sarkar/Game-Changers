@@ -12,8 +12,11 @@ const Selected = ({ selectedPlayers, removePlayer, setActiveTab }) => {
                             <div className="">
                             <p className="">{player.name}</p>
                             <p className="">{player.role}</p>
+                            <p>$ {player.biddingPrice}</p>
                             </div>
+                            
                             </div>
+                            
                             <button onClick={() => removePlayer(player.playerId)}><RiDeleteBin5Line />
                             </button>
                         </div>
