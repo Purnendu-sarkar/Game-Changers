@@ -13,7 +13,7 @@ const Players = ({ addPlayer, activeTab, setActiveTab, selectedPlayers }) => {
 
   return (
     <div>
-      <div className="w-11/12 mx-auto flex items-center justify-between">
+      <div className="w-11/12 mx-auto flex items-center justify-between mb-10">
         <h3 className="font-bold text-xl text-dark-02">Available Players</h3>
         <div className="flex border rounded-lg">
           <button 
