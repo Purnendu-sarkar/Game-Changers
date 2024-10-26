@@ -6,7 +6,7 @@ function Newsletter() {
         <div className="px-4 py-24 rounded-3xl text-center bg-gradient-to-r from-blue-200 via-white to-yellow-100">
             <h3 className="font-bold text-3xl text-dark-02 mb-4">Subscribe to our Newsletter</h3>
             <p className="font-medium text-xl text-dark-01 mb-6">Get the latest updates and news right in your inbox!</p>
-            <div className="flex items-center space-x-2 w-1/3 mx-auto">
+            <div className="flex items-center space-x-2 md:w-1/3 mx-auto">
           <input
             type="email"
             placeholder="Enter your email"

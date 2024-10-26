@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Players from './components/Players/Players';
 import Selected from './components/Selected/Selected';
 import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -56,6 +57,7 @@ const removePlayer = (playerId) => {
     <Players addPlayer={addPlayer} activeTab={activeTab} setActiveTab={setActiveTab} selectedPlayers={selectedPlayers}></Players>
     {activeTab === 'selected' && <Selected selectedPlayers={selectedPlayers} removePlayer={removePlayer} setActiveTab={setActiveTab}></Selected>}
     <Newsletter></Newsletter>
+    <Footer></Footer>
     </>
   )
 }
