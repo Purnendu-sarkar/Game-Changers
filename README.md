@@ -17,5 +17,7 @@ Game Changers is a user-friendly web application that allows users to assemble t
 5. **Responsive Design**: The application is designed to work smoothly on both desktop and mobile devices.
 
 
-##[Live link](https://purnendu-game-changers.netlify.app)
+## [🌟 Game Changers - Live Demo 🌟](https://purnendu-game-changers.netlify.app)
+
+[https://purnendu-game-changers.netlify.app](https://purnendu-game-changers.netlify.app)
 

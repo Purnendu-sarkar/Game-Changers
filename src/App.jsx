@@ -32,7 +32,7 @@ function App() {
       } );
       return;
     }
-    if (selectedPlayers.some(p => p.playerId === player.playerId)) {
+    if (selectedPlayers.find(p => p.playerId === player.playerId)) {
       toast.warn(`${player.name}is already in your squad`);
         return;
     }
